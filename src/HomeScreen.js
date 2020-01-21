@@ -70,6 +70,11 @@ import { View,Text,StyleSheet,FlatList, Button,TouchableOpacity} from 'react-nat
        onPress={()=> navigation.navigate('Text')}
        title="Go to Text Page"
       />
+
+<Button 
+       onPress={()=> navigation.navigate('Box')}
+       title="Go to Box Page"
+      />
      
       </View>
       )};
